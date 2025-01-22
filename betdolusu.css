@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  display: flex; /* GEREKLİ */
+  min-height: 100%; /* GEREKLİ */
+}
+body{
+  display:flex; /* GEREKLİ */
+  flex-direction:column; /* GEREKLİ */
+  flex:1 0 0; /* GEREKLİ */
+}
+
+/* İSTEĞE BAĞLI */
+header{
+  background-color:yellow;
+}
+
+/* İSTEĞE BAĞLI */
+main{
+  overflow:auto;
+  background-color: cyan;
+  flex:1 0 0;
+}
+
+/* İSTEĞE BAĞLI */
+footer{
+  background-color: red;
+}
